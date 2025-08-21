@@ -40,7 +40,7 @@ SELECT DISTINCT
 FROM gold.dim_products
 ORDER BY category, subcategory, product_name
 ```
-![Data_Flow_Diagram](images/2_imension_Exploration.png)
+![Data_Flow_Diagram](images/2_Dimension_Exploration.png)
 
 With this information, we can assume that we will be working with the following format of information.
 
