@@ -3,7 +3,7 @@
 
 ## 📝 Project Objective
 
-The objective of this project is to do an Exploratory Data Analysis (EDA) to the information of a Data Warehouseby project previously worked on - https://github.com/Daumas117/SQL_Project_data_warehouse -.
+The objective of this project is to do an Exploratory Data Analysis (EDA) to the information of a Data Warehouse by the project that we previously worked on | https://github.com/Daumas117/SQL_Project_data_warehouse |. Then, proceed with Advanced Analytics to get more meaningful information about the DB. 
 
 ## 🏗️ Data Architecture
 
@@ -105,6 +105,8 @@ SELECT 'Total Customers', COUNT(customer_key) FROM gold.dim_customers;
 ```
 
 ![Data_Flow_Diagram](images/4_Generated_Report.png)
+
+## 🏗 Advanced Data Analytics
 
 
 
