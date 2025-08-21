@@ -9,7 +9,7 @@ The objective of this project is to do an Exploratory Data Analysis (EDA) to the
 
 ![Data_Flow_Diagram](images/data_flow_diagram.png)
 
-**Database Exploration**
+## **Database Exploration**
 
 ```sql
 -- Database Exploration
@@ -30,7 +30,7 @@ We will be working with the following views:
 - gold.fact_sales
 
 
-**Dimension Exploration**
+## **Dimension Exploration**
 
 ```sql
 SELECT DISTINCT
@@ -46,7 +46,7 @@ With this information, we can assume that we will be working with the following 
 
 ![Data_Flow_Diagram](images/Dimensions_Exploration.png)
 
-**Data Exploration**
+## **Data Exploration**
 
 ```sql
 -- Find the Total Sales
