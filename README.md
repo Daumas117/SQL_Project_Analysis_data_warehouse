@@ -21,7 +21,7 @@ select
 	TABLE_TYPE
 from INFORMATION_SCHEMA.tables; -- Retrieve a  list of all tables in the DB.
 ```
-![Data_Flow_Diagram](images/1 Database Exploration.png)
+![Data_Flow_Diagram](images/1_Data_Exploration.png) 
 
 We will be working with the following views:
 -
@@ -39,11 +39,11 @@ SELECT DISTINCT
 FROM gold.dim_products
 ORDER BY category, subcategory, product_name
 ```
-![Data_Flow_Diagram](images/2 Dimension Exploration.png)
+![Data_Flow_Diagram](images/2_imension_Exploration.png)
 
 With this information, we can assume that we will be working with the following format of information.
 
-![Data_Flow_Diagram](images/Dimensions Exploration.png)
+![Data_Flow_Diagram](images/Dimensions_Exploration.png)
 
 *Data Exploration*
 
@@ -83,7 +83,7 @@ SELECT count(DISTINCT customer_key) AS total_customers
 FROM gold.fact_sales;
 ```
 
-![Data_Flow_Diagram](images/3 Data Exploration.png)
+![Data_Flow_Diagram](images/3_Data_Exploration.png)
 
 With this information, we can create a report. We can have the information spread out, but we can summarize everything in a unique query.
 
@@ -103,5 +103,5 @@ UNION ALL
 SELECT 'Total Customers', COUNT(customer_key) FROM gold.dim_customers;
 ```
 
-![Data_Flow_Diagram](images/4 Generated Report.png)
+![Data_Flow_Diagram](images/4_Generated_Report.png)
 
